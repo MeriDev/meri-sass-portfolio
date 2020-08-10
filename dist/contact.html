@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Contact Me | UI/UX Design & Developer</title>
+  </head>
+  <body>
+    <header class="header-inner">
+      <div class="container">
+        <nav class="main-nav">
+          <img src="./img/meri-logo.png" alt="logo" class="logo" />
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./work.html">Work</a></li>
+            <li><a href="./contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SECTION A:FORM -->
+    <section class="contact-a text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Here is how you can reach me
+        </p>
+        <form
+          class="form"
+          data-netlify-recaptcha="true"
+          method="POST"
+          data-netlify="true"
+        >
+          <div class="input-fields">
+            <input type="text" placeholder="Name" name="name" />
+            <input type="email" placeholder="Email Address" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+            <input type="tel" placeholder="Phone Number" name="phone" />
+            <textarea name="msg" placeholder="Enter Message"></textarea>
+            <div class="my-2"><div data-netlify-recaptcha="true"></div></div>
+          </div>
+          <button class="btn-dark" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- SECTION B: INFO -->
+    <section class="contact-b bg-dark text-center py-3">
+      <div class="container">
+        <div class="contact-info">
+          <article>
+            <i class="fas fa-enveloppe fa-2x"></i>
+            <h3>Email</h3>
+            <p>meri@mail.com</p>
+          </article>
+          <article>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>phone</h3>
+            <p>(555) 555-5555</p>
+          </article>
+          <article>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>50 Main st, Helsinki, Finland</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION C : BANNER -->
+    <section class="contact-c text-center bg-main py-4">
+      <div class="container">
+        <h1>Let's Start Your Next Project</h1>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content container">
+        <p>Copyright &copy;2020. All rights reserved</p>
+        <nav class="footer-nav">
+          <ul class="social-links">
+            <li>
+              <a href="" class="social-link"> <i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="" class="social-link"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="" class="social-link"><i class="fab fa-behance"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
